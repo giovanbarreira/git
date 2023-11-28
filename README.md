@@ -1,5 +1,6 @@
 # git
 Respostas das atividades do livro.
+https://www.amazon.com.br/dp/B0CP4L774B
 
 RESPOSTAS
 1. O Visual Studio é um ambiente de desenvolvimento integrado (IDE) da Microsoft que permite criar, depurar, testar e implantar aplicativos para diversas plataformas, como Windows, Web, Mobile, Cloud e outros. O Visual Studio oferece recursos como editor de código, designer gráfico, depurador, gerenciador de soluções, controle de versão, ferramentas de teste, extensões e muito mais.
