@@ -17,7 +17,7 @@ RESPOSTAS
 
 -----------------------------------------------------------------------------------------------------------------
 (Em ambiente Windows, comandos como touch, que cria arquivos e echo, que escreve em arquivo, rodam no Git Bash)
-RESPOSTAS 
+# RESPOSTAS 
 1. Para verificar a versão do git, use:
 git --version
 
@@ -87,7 +87,7 @@ Por favor, note que esses comandos são para um ambiente Unix-like (ou para Wind
 
 -----------------------------------------------------------------------------------------------------------------
 (Em ambiente Windows, comandos como touch, que cria arquivos e echo, que escreve em arquivo, rodam no Git Bash)
-RESPOSTAS 
+# RESPOSTAS 
 1. Para criar um repositório chamado ProjetoAgenda, use:
 mkdir ProjetoAgenda
 cd ProjetoAgenda
@@ -113,7 +113,7 @@ dotnet new console -n ProjAg
 
 6. O projeto agenda tem 5 tarefas, desenvolva cada tarefa seguindo os passos: salvar as alterações no branch da respectiva tarefa, fazer um comentário, no commit, explicando o que foi desenvolvido naquela tarefa, mudar para o branch master e salvar as alterações do branch da respectiva tarefa no master. Você precisará abrir o arquivo Program.cs em um editor de texto e fazer as alterações manualmente. Em seguida, você pode usar:
 git checkout -b 001
-# Faça as alterações no arquivo Program.cs
+Faça as alterações no arquivo Program.cs
 git add .
 git commit -m "Declarou as variáveis"
 git checkout master
@@ -189,3 +189,7 @@ git config --global user.email "luigi_123@bros.com"
 23. Para exibir o e-mail local, use:
 git config user.email
 
+-----------------------------------------------------------------------------------------------------------------
+(Em ambiente Windows, comandos como touch, que cria arquivos e echo, que escreve em arquivo, rodam no Git Bash)
+# RESPOSTAS 
+TBD
