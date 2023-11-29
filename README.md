@@ -1,8 +1,8 @@
 # git
 Respostas das atividades do livro.
-https://www.amazon.com.br/dp/B0CP4L774B
+# https://www.amazon.com.br/dp/B0CP4L774B
 
-RESPOSTAS
+# RESPOSTAS
 1. O Visual Studio é um ambiente de desenvolvimento integrado (IDE) da Microsoft que permite criar, depurar, testar e implantar aplicativos para diversas plataformas, como Windows, Web, Mobile, Cloud e outros. O Visual Studio oferece recursos como editor de código, designer gráfico, depurador, gerenciador de soluções, controle de versão, ferramentas de teste, extensões e muito mais.
 2. A versão 2022 do Visual Studio possui quatro edições: Community, Professional, Enterprise e Code. A edição Community é gratuita e voltada para estudantes, desenvolvedores individuais e projetos de código aberto. A edição Professional é paga e destinada a equipes pequenas que precisam de ferramentas avançadas de produtividade e colaboração. A edição Enterprise é paga e indicada para equipes de qualquer tamanho que precisam de soluções escaláveis e de alto desempenho. A edição Code é gratuita e leve, ideal para desenvolvimento web e de nuvem com suporte a diversas linguagens e plataformas.
 3. O Visual Studio, o Visual Studio Code e o Blend for Visual Studio são ferramentas diferentes que atendem a diferentes necessidades dos desenvolvedores. O Visual Studio é um IDE completo e poderoso que suporta principalmente o desenvolvimento de aplicações .NET e C++. O Visual Studio Code é um editor de código leve e multiplataforma que suporta diversas linguagens e cenários de desenvolvimento, como web, nuvem, Python, Java, Node.js e outros. O Blend for Visual Studio é um componente do Visual Studio que ajuda a criar interfaces de usuário baseadas em XAML para aplicações Windows e Web. Ele oferece recursos como ferramentas gráficas, animações, comportamentos e integração com o Visual Studio.
