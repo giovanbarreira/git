@@ -192,4 +192,63 @@ git config user.email
 -----------------------------------------------------------------------------------------------------------------
 (Em ambiente Windows, comandos como touch, que cria arquivos e echo, que escreve em arquivo, rodam no Git Bash)
 # RESPOSTAS 
-TBD
+1. Criar uma pasta na raiz do computador chamada ‘Cumprimento’.
+mkdir Cumprimento
+
+2. Criar um repositório nela.
+cd Cumprimento
+git init
+
+3. Mudar o nome de usuário do repositório para ‘Sonic’ e o e-mail para ‘sonic@videogame.com’
+git config user.name "Sonic"
+git config user.email "sonic@videogame.com"
+
+4. Criar o branch P1-001
+git checkout -b P1-001
+
+5. No branch P1-001, criar um arquivo para ignorar as pastas .vs, bin e obj.
+echo -e ".vs\nbin\nobj" > .gitignore
+
+6. Escrever comentários no arquivo explicando por que as pastas acima estão sendo ignoradas pelo git.
+echo -e "# .vs, bin, obj directories são ignorados pois são auto gerados." >> .gitignore
+
+7. Criar um repositório chamado Cmpt no GitHUB.
+Você precisa fazer isso manualmente no site do GitHub.
+
+8. Adicionar a origin do item anterior no repositório local.
+git remote add origin https://github.com/yourusername/Cmpt.git
+
+9. Fazer o push do P1-001 local em um branch com mesmo nome no GitHUB.
+git push -u origin P1-001
+
+10. Fazer o merge do branch P1-001 do GitHUB no 
+Você precisa especificar o branch de destino para o merge.
+
+11. Criar o branch local 002
+git checkout -b 002
+
+12. Renomear o branch local 002 para P1-002
+git branch -m 002 P1-002
+
+13. Criar um projeto C# console no P1-002
+Você precisa fazer isso manualmente usando o Visual Studio ou a linha de comando do .NET CLI. Por exemplo:
+dotnet new console
+
+14. Aplicar o stage, o commit e o push do P1-002 local em um branch com mesmo nome no GitHUB.
+git add .
+git commit -m "Initial commit"
+git push -u origin P1-002
+
+15. Criar o branch local 003. Renomeá-lo para P1-003 e depois apagá-lo
+git checkout -b 003
+git branch -m 003 P1-003
+git branch -d P1-003
+
+16. Exibir a lista de branches do repositório local.
+git branch
+
+17. Exibir apenas o repositório atual.
+git rev-parse --abbrev-ref HEAD
+
+18. Exibir uma lista com commits, datas e donos dos commits.
+git log --pretty=format:"%h - %an, %ar : %s"
